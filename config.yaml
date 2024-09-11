@@ -1,0 +1,17 @@
+credentials:
+  usernames:
+    dk.com:
+      email: mail.mail
+      failed_login_attempts: 0 # Will be managed automatically
+      logged_in: False # Will be managed automatically
+      name: DK.com
+      password: $2b$12$WvQSoUbkLWGltK/Fm56I5u6mEfGF3D3FJjfCvA34qNSausL.PyhpK # Will be hashed automatically
+
+cookie:
+  expiry_days: 30
+  key: some_signature_key # Must be string
+  name: some_cookie_name
+pre-authorized:
+  emails:
+  - melsby@gmail.com
+
